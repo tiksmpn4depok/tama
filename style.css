@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: beige; */
+    background-image: url(tree_.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.p1 {
+    text-align: left;
+    /* jarak antar huruf */
+    letter-spacing: 0.5px;
+    /* jarak antar kata */
+    word-spacing: 1px;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p3 {
+    text-align: right;
+}
+
+.p4 {
+    text-align: justify;
+    /* 1em = 16px */
+    text-indent: 2em;
+    
+}
+
+.dec1 {
+    /* text-decoration ada underline, overline, line-through */
+    /* bisa ditambahkan wavy, dashed, dotted, double */
+    /* lalu tambahkan warna */
+    text-decoration: underline wavy red;
+}
+
+h1 {
+  /* text-transform ada lowercase, uppercase, capitalize */
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.trans1 {
+    color:rgb(253, 0, 215);
+    text-transform: uppercase;
+}

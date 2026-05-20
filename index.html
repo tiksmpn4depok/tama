@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+</head>
+
+<body>
+
+    <!-- h1-h6 untuk membuat judul -->
+    <h1> Belajar HTML Itu Asyik! </h1>
+
+    <!-- hr untuk membuat garis horizontal -->
+    <hr>
+
+    <!-- Ini paragraf yang diberi tag b,i,u -->
+     <!-- b itu tebal, i itu miring, u itu garis bawah teks -->
+    <p><b>Hari ini </b><i>kita mulai lagi </i><u>ekskul Informatika Club.</u></p>
+    <p><i><b><u>Ini pertemuan kedua nginstall VScode dan extention live preview.</u></b></i></p>
+    
+    <p><center>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque soluta sapiente aperiam odio debitis porro cum vel fugiat consequatur.</center></p>
+
+    <p align="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque soluta sapiente aperiam odio debitis porro cum vel fugiat consequatur.</p>
+
+    <!-- ini gambar, width untuk mengatur ukuran, bisa juga pakai height
+     alt baru berfungsi kalau gambarnya tidak muncul -->
+    <img src="pohon.jpg" width="400" alt="ini adalah pohon"><br>
+    <img src="https://starwalk.space/gallery/images/what-is-space/1540x866.jpg" alt="" width="400">
+    <br>
+    
+    <!-- Ini link -->
+    <!-- Eksternal link -->
+    <a href="http://google.com/" target="_blank">Google</a><br>
+    <a href="http://yahoo.com/">Yahoo</a><br>
+    <a href="http://bing.com/">Bing</a><br><br>
+
+    <!-- Internal link -->
+    <a href="halaman-1.html">Ke Halaman 1</a><br>
+    <a href="halaman-2.html">Ke Halaman 2</a><br><br>
+
+    <!-- Link dalam Gambar -->
+        <a href="https://www.youtube.com/" target="_blank"><img
+            src="https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
+            alt="logo youtube" width="50"></a>
+    <a href="https://www.instagram.com/" target="_blank"><img
+            src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" alt="logo instagram" width="50"></a>
+    <a href="https://www.tiktok.com/" target="_blank"><img
+            src="https://static.vecteezy.com/system/resources/previews/006/057/996/original/tiktok-logo-on-transparent-background-free-vector.jpg"
+            alt="logo tiktok" width="50"></a>
+
+    <hr>
+
+    <!-- Ini List -->
+    <!-- List tidak urut -->
+    <h4>Daftar tetapi Tidak Urut</h4>
+    <!-- disc/square/circle/none -->
+    <ul>
+        <li>ayam</li>
+        <li>itik</li>
+        <li>bebek</li>
+    </ul>
+
+    <!-- List urut -->
+    <h4>Daftar dengan Urutan</h4>
+    <!-- A,a,I,i  -->
+    <ol type="a">
+        <li>motor</li>
+        <li>mobil</li>
+        <li>truk</li>
+    </ol>
+
+    <!-- table untuk mulai membuat tabel -->
+    <!-- tr (table row) untuk baris -->
+    <!-- td (table data) untuk kolom -->
+    <table border="2">
+        <tr>
+            <td>No.</td>
+            <td>Nama</td>
+            <td>Kelas</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Adhitama</td>
+            <td>7E</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Boni Ismail</td>
+            <td>7F</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="2" style="background-color: rgb(0, 255, 85);">1,1</td>
+            <td rowspan="2" style="background-color: rgb(243, 252, 0);">1,3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color: deepskyblue;">2,1</td>
+            <td>2,2</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: rgba(253, 82, 40, 0.929);">3,2</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="2" rowspan="2" style="background-color: rgb(0, 255, 85);">1,1</td>
+            <td>1,1</td>
+            <td>1,1</td>
+        </tr>
+        <tr>
+            <td>1,1</td>
+            <td>1,1</td>
+        </tr>
+        <tr>
+            <td>1,1</td>
+            <td>1,1</td>
+            <td colspan="2" rowspan="2" style="background-color: rgb(243, 252, 0);">1,1</td>
+        </tr>
+        <tr>
+            <td>1,1</td>
+            <td>1,1</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <hr>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="nama">Nama lengkap : </label></td>
+                <td><input type="text" name="" id="nama" required></td>
+            </tr>
+        <tr>
+            <td><label for="password">Password : </label></td>
+            <td><input type="password" name="" id="password" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="" id="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="tgl">Tanggal lahir</label></td>
+            <td><input type="date" name="" id="tgl" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Jenis Kelamin:</label></td>
+            <td>        <input type="radio" name="jk" id="">
+        <label for="">Laki-laki</label>
+        <input type="radio" name="jk" id="">
+        <label for="">Perempuan</label></td>
+        </tr>
+        <tr>
+            <td><label for="">Hobi:</label></td>
+            <td>        <input type="checkbox" name="" id="musik">
+        <label for="musik">Musik</label>
+        <input type="checkbox" name="" id="masak">
+        <label for="masak">Masak</label>
+        <input type="checkbox" name="" id="mancing">
+        <label for="mancing">Mancing</label></td>
+        </tr>
+        </table>
+        <input type="reset" name="" id="">
+        <input type="submit" name="" id="">
+    </form>
+    
+</body>
+</html>
